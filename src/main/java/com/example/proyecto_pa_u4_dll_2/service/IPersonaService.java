@@ -1,8 +1,8 @@
-package com.example.proyecto_pa_u4_dll_2.pers.service;
+package com.example.proyecto_pa_u4_dll_2.service;
 
 import java.util.List;
 
-import com.example.proyecto_pa_u4_dll_2.pers.modelo.Persona;
+import com.example.proyecto_pa_u4_dll_2.repository.modelo.Persona;
 
 public interface IPersonaService {
 	/*

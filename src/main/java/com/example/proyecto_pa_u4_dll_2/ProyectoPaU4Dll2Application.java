@@ -5,11 +5,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.example.proyecto_pa_u4_dll_2.pers.modelo.Persona;
-import com.example.proyecto_pa_u4_dll_2.pers.service.IPersonaService;
+import com.example.proyecto_pa_u4_dll_2.repository.modelo.Persona;
+import com.example.proyecto_pa_u4_dll_2.service.IPersonaService;
 
 @SpringBootApplication
-public class ProyectoPaU4Dll2Application implements CommandLineRunner{
+public class ProyectoPaU4Dll2Application {//implements CommandLineRunner{
 
 	@Autowired
 	private IPersonaService iPersonaService;
@@ -17,7 +17,7 @@ public class ProyectoPaU4Dll2Application implements CommandLineRunner{
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoPaU4Dll2Application.class, args);
 	}
-
+	/*
 	@Override
 	public void run(String... args) throws Exception {
 		
@@ -47,6 +47,7 @@ public class ProyectoPaU4Dll2Application implements CommandLineRunner{
 		
 		System.out.println("Buscar Todos");
 		iPersonaService.buscarTodos();
+		
 	}
-
+	*/
 }

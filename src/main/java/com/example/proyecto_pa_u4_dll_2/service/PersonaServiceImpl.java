@@ -1,12 +1,12 @@
-package com.example.proyecto_pa_u4_dll_2.pers.service;
+package com.example.proyecto_pa_u4_dll_2.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.proyecto_pa_u4_dll_2.pers.modelo.Persona;
-import com.example.proyecto_pa_u4_dll_2.pers.repo.IPersonaIRepo;
+import com.example.proyecto_pa_u4_dll_2.repository.modelo.Persona;
+import com.example.proyecto_pa_u4_dll_2.respositoy.IPersonaIRepo;
 
 @Service
 public class PersonaServiceImpl implements IPersonaService {

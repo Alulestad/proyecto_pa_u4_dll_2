@@ -1,10 +1,10 @@
-package com.example.proyecto_pa_u4_dll_2.pers.repo;
+package com.example.proyecto_pa_u4_dll_2.respositoy;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.example.proyecto_pa_u4_dll_2.pers.modelo.Persona;
+import com.example.proyecto_pa_u4_dll_2.repository.modelo.Persona;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;

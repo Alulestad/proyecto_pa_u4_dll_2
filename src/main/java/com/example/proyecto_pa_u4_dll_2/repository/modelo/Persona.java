@@ -1,4 +1,4 @@
-package com.example.proyecto_pa_u4_dll_2.pers.modelo;
+package com.example.proyecto_pa_u4_dll_2.repository.modelo;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
@@ -29,6 +29,8 @@ public class Persona {
 	private String nombre;
 	@Column(name = "pers_apellido")
 	private String apellido;
+	@Column(name = "pers_cedula")
+	private String cedula;
 	@Column(name = "pers_genero")
 	private String genero;
 	public Integer getId() {
@@ -54,6 +56,13 @@ public class Persona {
 	}
 	public void setGenero(String genero) {
 		this.genero = genero;
+	}
+	
+	public String getCedula() {
+		return cedula;
+	}
+	public void setCedula(String cedula) {
+		this.cedula = cedula;
 	}
 	@Override
 	public String toString() {
